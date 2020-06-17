@@ -35,7 +35,7 @@ def lr_scheduler(optimizer, init_lr, epoch):
 def train(folder_names, val_folders, num_epochs , weight_path,ref_image_name,val_folder, gpu_no):
 
     best_val_acc=0.0
-    model=model2_no_dct_thresh_sd_trainable(ref_image_name, gpu_no)
+    model=network(ref_image_name, gpu_no)
     model= model.cuda()
     lrate=1e-3
 
@@ -172,10 +172,9 @@ if __name__ == '__main__':
 
     args, _ = parser.parse_known_args()
     torch.cuda.set_device(args.gpu)
-    # ref_image_name = "./ref_all.bmp"
+  
     ref_image_name = args.ref_name
-    # folders = sorted(glob.glob("./Equal_Split_7_fold_Subject_level_ISBI/*"))
-    print(args.train_dir)
+ 
     folders=sorted(glob.glob(args.train_dir))
     train_folders=[folders[0], folders[1], folders[2],folders[3], folders[4], folders[5], folders[6]]
     del train_folders[args.val_folder]
