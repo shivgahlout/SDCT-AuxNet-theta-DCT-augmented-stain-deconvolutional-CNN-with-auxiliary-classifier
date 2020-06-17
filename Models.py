@@ -48,7 +48,6 @@ class network(nn.Module):
 		layers.append(BasicConv(32,48,3,1,1))
 		layers.append(nn.MaxPool2d(2))
 		layers.append(BasicConv(48,64,3,1,1))
-		# import pdb;pdb.set_trace()
 		layers.append(nn.MaxPool2d(2))
 		layers.append(BasicConv(64,64,3,1,1))
 		self.layers = nn.Sequential(*layers)
