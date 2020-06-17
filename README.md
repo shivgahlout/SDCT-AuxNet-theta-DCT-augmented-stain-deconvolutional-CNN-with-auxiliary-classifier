@@ -37,7 +37,7 @@ foldn------
 
 ### Evaluation
 1. Run test_model.py
-2. The performance of the model on the test set can be evaluated at the challenge portal: https://competitions.codalab.org/competitions/20395
+2. The performance of the model on the test set can be evaluated at the [challenge portal] (https://competitions.codalab.org/competitions/20395)
 
 
 
