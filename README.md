@@ -12,27 +12,28 @@ The dataset for this article is available at [The Cancer Imaging Archive (TCIA)]
 
 ### Training
 1. For training the the dataset structure should have the following structure:
-
-main_data_dir\
-|          -----------class1------subject_folders\
-|         |\
-fold0------\
-|         |\
-|          -----------class2------subject_folders\
-|\  
-|          -----------class1------subject_folders\
-|         |\
-fold1------\
-.         .\
-.          -----------class2------subject_folders\  
-.\
-.\
-.\
-.          -----------class1------subject_folders\
-.         .\
-foldn------\
-          .\
-           -----------class2------subject_folders\
+<pre>
+main_data_dir
+|          -----------class1------subject_folders
+|         |
+fold0------
+|         |
+|          -----------class2------subject_folders
+| 
+|          -----------class1------subject_folders
+|         |
+fold1------
+|         |
+|          -----------class2------subject_folders 
+|
+|
+.
+.          -----------class1------subject_folders
+.         |
+foldn------
+          |
+           -----------class2------subject_folders
+</pre>
 
 2. Run train_model.py
 
