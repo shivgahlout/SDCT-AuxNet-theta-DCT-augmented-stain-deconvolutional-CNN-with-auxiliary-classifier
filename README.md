@@ -2,7 +2,7 @@
 The implementation of the paper SDCT-AuxNet$^{\theta}$: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis. The article is available [here](https://www.sciencedirect.com/science/article/abs/pii/S136184152030027X). The preprint of the article is also available [here.](https://arxiv.org/abs/2006.00304)
 
 
-###Requirements:
+### Requirements:
 #### 1. Python 2.7
 #### 2. PyTorch 0.4.1
 
@@ -11,7 +11,7 @@ The dataset for this article is available at [The Cancer Imaging Archive (TCIA)]
 
 
 ### Training
-1. For training the the dataset structure should have the following structure:
+1. For training the the dataset directory should have the following structure:
 <pre>
 main_data_dir
 |          -----------class1------subject_folders
