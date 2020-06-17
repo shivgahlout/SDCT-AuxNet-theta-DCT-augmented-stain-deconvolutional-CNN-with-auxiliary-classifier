@@ -1,5 +1,5 @@
-# SDCT-AuxNet-theta-DCT-Augmented-Stain-Deconvolutional-CNN-with-Auxiliary-Classifier-for-Cancer
-The implementation of the paper SDCT-AuxNet$^{\theta}$: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis
+# SDCT-AuxNet^${\theta}$:DCT Augmented Stain Deconvolutional CNN with-Auxiliary Classifier for Cancer Diagnosis
+The implementation of the paper SDCT-AuxNet$^{\theta}$: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis. The article is available [here](https://www.sciencedirect.com/science/article/abs/pii/S136184152030027X). The preprint of the article is also available [here](https://arxiv.org/abs/2006.00304)
 
 
 ###Requirements:
