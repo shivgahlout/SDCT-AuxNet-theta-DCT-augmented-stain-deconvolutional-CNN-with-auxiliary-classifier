@@ -150,5 +150,5 @@ if __name__ == '__main__':
 
 
         with open(args.file_name, 'a') as f:
-                            # f.write('fold0,fold1, fold2, fold3,fold4,fold5,fold6\n')
+                         
                             f.write('{0}\n'.format(initial_labels[index][0]))
