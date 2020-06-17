@@ -11,7 +11,6 @@ class BasicConv(nn.Module):
 		self.conv = nn.Conv2d(in_f, out_f, kernel_size, stride, padding)
 		self.bn = nn.BatchNorm2d(out_f)
 		self.relu = nn.ReLU()
-
 		self._initialize_weights()
 
 	def forward(self, inputs):
