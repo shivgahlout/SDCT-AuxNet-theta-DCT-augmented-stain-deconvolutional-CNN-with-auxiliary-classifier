@@ -36,9 +36,9 @@ class BasicConv(nn.Module):
 				m.weight.data.normal_(0, 0.01)
 				m.bias.data.zero_()
 
-class model2_no_dct_thresh_sd_trainable(nn.Module):
+class network(nn.Module):
 	def __init__(self, image_name, gpu_no):
-		super(model2_no_dct_thresh_sd_trainable, self).__init__()
+		super(network, self).__init__()
 		self.sd_layer = sd_layer_pytorch_modular_dct_no_threshold_trainable(image_name, gpu_no)
 		layers = []
 		layers.append(BasicConv(3,16,5,2,1))
